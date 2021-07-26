@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html> 
+    <head>   
+        <title>  Hello </title>
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="flow.js" defer></script>
+        <link rel="stylesheet" href = "main.css" defer>
+    </head>
+   
+    <body>
+        <div class="intro"> 
+            <br> <h1> Samia </h1> <br>
+            <div id= "descriptors">default</div><br>
+            <div class="navigation">
+                <a href="#">About</aref>
+                <a href="#">Resume</aref>
+                <a href="#">Projects</aref>
+            </div>
+        </div>  
+        
+    </body>
+     
+    <script>   
+        var typewriter = new Typewriter(descriptors, {
+            loop:true,
+            strings: ['developer', 'data-informed', 'human-focused'],
+            autoStart : true
+        });
+    </script>
+</html>

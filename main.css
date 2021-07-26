@@ -1,0 +1,29 @@
+html, body {
+    font-family: 'Alatsi', sans-serif;
+    margin: 0;
+    overflow: hidden;
+    color:white;
+  }
+
+  h1 {
+      color:black;
+  }
+
+  .intro {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  canvas {
+    width: 100%;
+    background-color:white;
+  }
