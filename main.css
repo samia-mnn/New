@@ -14,11 +14,13 @@ html, body {
   .intro {
     color: white;
     background-color: black;
+    border-width: 0px;
   }
 
 
   .button {
     background-color: white;
+    font-family: 'Alatsi', sans-serif;
     color: black;
   }
   
