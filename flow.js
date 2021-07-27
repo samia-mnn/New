@@ -29,14 +29,12 @@ void main() {
 gl_Position = vec4(position, 0.0, 1.0);
 }
 `;
-var d = new Date();
-var n = d.getSeconds();
+
 var fragmentShaderSrc = `
 precision highp float;
 
 const float WIDTH = ` + (width >> 0) + `.0;
 const float HEIGHT = ` + (height >> 0) + `.0;
-float seconds = ` + n + `.0;
 
 uniform vec3 metaballs[` + numMetaballs + `];
 
@@ -55,7 +53,7 @@ sum += (radius * radius) / (dx * dx + dy * dy);
 }
 
 if (sum >= 0.99) {
-gl_FragColor = vec4(mix(vec3(x / WIDTH, y / HEIGHT, 1.0*(seconds/60)))), vec3(0, 0, 0), max(0.0, 1.0 - (sum - 0.99) * 100.0)), 1.0*(seconds/60));
+gl_FragColor = vec4(mix(vec3(x / WIDTH, y / HEIGHT, 1.0), vec3(0, 0, 0), max(0.0, 1.0 - (sum - 0.99) * 100.0)), 1.0);
 return;
 }
 
