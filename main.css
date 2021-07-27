@@ -22,6 +22,9 @@ html, body {
     background-color: white;
     font-family: 'Alatsi', sans-serif;
     color: black;
+    border-width: 0px;
+    width: 60px;
+    height: 20px;
   }
   
   .button:hover {
