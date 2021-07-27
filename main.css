@@ -7,11 +7,12 @@ html, body {
   }
 
   h1 {
-      color:white;
+      color:black;
   }
 
   .intro {
-    color: white;
+    color: black;
+    background-color: black;
   }
   
   canvas {
