@@ -26,6 +26,7 @@ html, body {
     position: fixed;
     bottom: 500px;
     right: 500px;
+    background: rgba(255,255,255,0.4);
   }
 
   .button {
