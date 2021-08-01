@@ -17,6 +17,9 @@ html, body {
     border-width: 0px;
   }
 
+  .about {
+    color:#d166a4;
+  }
 
   .button {
     background-color: white;
