@@ -30,8 +30,8 @@ html, body {
     width: 500px;
     background-color: rgba(255,255,255,0.4);
     top: 50%;
-    left: 50% + 500px;
-    margin-right: -50%;
+    left: 30% + 500px;
+  
   }
 
   .button {
