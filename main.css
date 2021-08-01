@@ -16,9 +16,10 @@ html, body {
     background-color: black;
     border-width: 0px;
     align-self: center;
-    width: 50%;
+    width: 300px;
     position: fixed;
     top: 0px;
+    right: 50%;
   }
 
   .about {
