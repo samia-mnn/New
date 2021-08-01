@@ -18,7 +18,7 @@ html, body {
     width: 200px;
     position: fixed;
     top: 0px;
-    left: 50% - 200px;
+   
     
   }
 
@@ -30,7 +30,7 @@ html, body {
     width: 500px;
     background-color: rgba(255,255,255,0.4);
     top: 50%;
-    left: 50% - 500px;
+    left: 50% + 500px;
     margin-right: -50%;
   }
 
