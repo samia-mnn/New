@@ -5,6 +5,7 @@ html, body {
     color:white;
     background-color: black;
     text-align: center;
+    position: relative;
   }
 
   h1 {
@@ -15,6 +16,7 @@ html, body {
     color: white;
     background-color: black;
     border-width: 0px;
+    position: absolute;
   }
 
 
@@ -43,4 +45,5 @@ html, body {
   canvas {
     width: 100%;
     display: block;
+    position: absolute;
   }
