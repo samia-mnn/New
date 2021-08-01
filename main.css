@@ -19,6 +19,9 @@ html, body {
 
   .about {
     color:#d166a4;
+    position: fixed;
+    bottom: 500px;
+    right: 500px;
   }
 
   .button {
