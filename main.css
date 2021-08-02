@@ -23,7 +23,7 @@ html, body {
   .about {
     color:#d166a4;
     position: fixed;
-    bottom: 500px;
+    bottom: 100px;
     width: 500px;
     background: rgba(255,255,255, 0.8);
     left: 200px;
