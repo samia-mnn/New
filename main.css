@@ -52,10 +52,11 @@ html, body {
 
   .resume {
     position: fixed;
-    width: 600px;
+    width: 1000px;
     height: 600px;
     bottom: 30px;
     left: 200px;
+    background:#d166a4;
   }
 
   .likes {
