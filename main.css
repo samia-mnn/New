@@ -45,6 +45,9 @@ html, body {
     border-radius: 40px;
     margin-left: auto;
     margin-right: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+	  animation: float 6s ease-in-out infinite;
     
   
   }
@@ -61,10 +64,7 @@ html, body {
   .picture-me {
     transform: translatey(0px);
     border-radius: 30px;
-    box-sizing: border-box;
-    border: 5px white solid;
-    overflow: hidden;
-	  animation: float 6s ease-in-out infinite;
+   
   }
   .buttonpressed {
     background-color: rgb(30, 110, 175);
