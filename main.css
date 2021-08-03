@@ -50,6 +50,13 @@ html, body {
 	  animation: float 6s ease-in-out infinite;
   }
 
+  .resume {
+    position: fixed;
+    width: 600px;
+    height: auto;
+    bottom: 30px;
+  }
+
   .likes {
     color:#ffffff;
     position: fixed;
