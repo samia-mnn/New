@@ -48,8 +48,21 @@ html, body {
     box-sizing: border-box;
     overflow: hidden;
 	  animation: float 6s ease-in-out infinite;
-    
-  
+  }
+
+  .about:hover {
+    color:#ffffff;
+    position: fixed;
+    bottom: 140px;
+    width: 500px;
+    background: rgba(64, 120, 172, 0.7);
+    left: 200px;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+	  animation: float 6s ease-in-out infinite;
   }
 
   .img {
