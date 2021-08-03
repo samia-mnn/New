@@ -21,9 +21,9 @@ html, body {
   }
 
   .about {
-    color:#d166a4;
+    color:#000000;
     position: fixed;
-    bottom: 100px;
+    bottom: 200px;
     width: 500px;
     background: rgba(255,255,255);
     left: 200px;
