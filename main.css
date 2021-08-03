@@ -52,6 +52,11 @@ html, body {
   
   }
 
+  .img {
+
+    border-radius: 30px;
+  }
+
   .button {
     background-color: white;
     font-family: 'Alatsi', sans-serif;
