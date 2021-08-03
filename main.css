@@ -44,6 +44,9 @@ html, body {
   .picture-me {
     transform: translatey(0px);
     border-radius: 30px;
+    box-sizing: border-box;
+    border: 5px white solid;
+    overflow: hidden;
 	  animation: float 6s ease-in-out infinite;
   }
   .buttonpressed {
