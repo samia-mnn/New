@@ -43,6 +43,7 @@ html, body {
   
   .picture-me {
     transform: translatey(0px);
+    border-radius: 30px;
 	  animation: float 6s ease-in-out infinite;
   }
   .buttonpressed {
