@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html> 
+    <head>   
+        <title>  Hello </title>
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="flow.js" defer></script>
+        <link rel="stylesheet" href = "main.css" defer>
+    </head>
+   
+    <body>
+        <div class="intro"> 
+            <br> <h1> samia menon</h1> 
+            <div id= "descriptors">default</div><br>
+            <div class="navigation">
+                <button class="button" onclick="window.location.href='about.html';">About</button>
+                <button class="button">Resume</button>
+                <button class="button">Projects</button>
+            </div>
+        </div>   
+        <div class="resume" >
+            <iframe src="resume_menon.pdf">Samia Menon Resume</iframe>
+        </div>
+    </body>
+     
+    <script>   
+        var typewriter = new Typewriter(descriptors, {
+            loop:true,
+            strings: ['developer', 'data-informed', 'human-focused'],
+            autoStart : true
+        });
+    </script>
+</html>
