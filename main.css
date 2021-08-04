@@ -38,7 +38,7 @@ html, body {
   .about {
     color:#ffffff;
     position: fixed;
-    top: 80px;
+    top: 140px;
     width: 500px;
     background: rgb(0, 0, 0, 0.7);
     left: 200px;
@@ -81,7 +81,7 @@ html, body {
   .likes {
     color:#ffffff;
     position: fixed;
-    bottom: 140px;
+    top: 140px;
     width: 500px;
     background: rgb(0, 0, 0, 0.7);
     left: 750px;
