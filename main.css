@@ -54,7 +54,7 @@ html, body {
     color:#d166a4;
     font-size:large;
     position: fixed;
-    bottom: 140px;
+    top: 140px;
     width: 500px;
     background: rgb(0, 0, 0, 0.7);
     left: 200px;
@@ -73,7 +73,7 @@ html, body {
   .resume {
     position: fixed;
    
-    bottom: 5px;
+    top: 140px;
     left: 250px;
     background:#d166a4;
   }
@@ -96,7 +96,7 @@ html, body {
   .about:hover {
     color:#ffffff;
     position: fixed;
-    bottom: 140px;
+    top: 140px;
     width: 500px;
     background: rgba(64, 120, 172, 0.7);
     left: 200px;
