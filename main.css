@@ -50,6 +50,38 @@ html, body {
 	  animation: float 6s ease-in-out infinite;
   }
 
+  .project-list {
+    color:#d166a4;
+    font-size:large;
+    position: fixed;
+    bottom: 140px;
+    width: 500px;
+    background: rgb(0, 0, 0, 0.7);
+    left: 200px;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+	  animation: float 6s ease-in-out infinite;
+  }
+
+  .project-list:hover {
+    color:rgba(64, 120, 172);
+    font-size:large;
+    position: fixed;
+    bottom: 140px;
+    width: 500px;
+    background: rgb(0, 0, 0, 0.7);
+    left: 200px;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+	  animation: float 6s ease-in-out infinite;
+  }
+
   .resume {
     position: fixed;
    
