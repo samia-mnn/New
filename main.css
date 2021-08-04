@@ -38,7 +38,7 @@ html, body {
   .about {
     color:#ffffff;
     position: fixed;
-    top: 140px;
+    top: 180px;
     width: 500px;
     background: rgb(0, 0, 0, 0.7);
     left: 200px;
@@ -54,7 +54,7 @@ html, body {
     color:#d166a4;
     font-size:large;
     position: fixed;
-    top: 140px;
+    top: 180px;
     width: 500px;
     background: rgb(0, 0, 0, 0.7);
     left: 200px;
@@ -72,16 +72,16 @@ html, body {
 
   .resume {
     position: fixed;
-   
-    top: 140px;
+    top: 180px;
     left: 250px;
     background:#d166a4;
+    animation: float 6s ease-in-out infinite;
   }
 
   .likes {
     color:#ffffff;
     position: fixed;
-    top: 140px;
+    top: 180px;
     width: 500px;
     background: rgb(0, 0, 0, 0.7);
     left: 750px;
@@ -96,7 +96,7 @@ html, body {
   .about:hover {
     color:#ffffff;
     position: fixed;
-    top: 140px;
+    top: 180px;
     width: 500px;
     background: rgba(64, 120, 172, 0.7);
     left: 200px;
