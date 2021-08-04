@@ -53,8 +53,8 @@ html, body {
   .resume {
     position: fixed;
     width: 800px;
-    height: 600px;
-    bottom: 30px;
+    height: 500px;
+    bottom: 5px;
     left: 250px;
     background:#d166a4;
   }
