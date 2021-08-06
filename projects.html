@@ -9,14 +9,17 @@
             var thisWebsiteDesc = "This website was created in JavaScript, CSS, and HTML to showcase my software development experiences. I had a lot of fun picking up new styling, animation, and formatting knowledge as I put it together!";
             var thisWebsiteImage = "";
             var tarotReaderDesc = "tarotreader.xyz is a tarot reader website I creatdd in JS, CSS, and HTML. It takes information from a JSON of tarot meanings, and creates a specific fortune based on the cards' relationships to each other.";
-            var tarotReaderImage = "";
+            var tarotReaderImage = "tarot.gif";
             var houseplantDemoDesc="This is a demo I made to show how echoAR can be integrated into web applications. Answer a short quiz, find the houseplant of your dreams, and see it in your home in AR! JS, CSS, HTML, echoAR";
             var houseplantDemoImage = "";
             var covDesc = "";
             var covImg = "";
             var devRolesDesc = "";
             var devRolesImg = "";
-
+            function tarotChange()
+            {
+                document.getElementById(description) = tarotReaderDesc;
+            }
         </script>
     </head>
    
@@ -32,11 +35,12 @@
         </div> 
         <ul class="project-list">
             <li class="project">This Website</li>
-            <li class="project">Tarot Reader</li>
+            <li class="project" onclick="tarotChange();">Tarot Reader</li>
             <li class="project">Houseplant Demo</li>
             <li class="project">Covid-19 Deaths By Race</li>
             <li class="project">Development Roles</li>
             <li class="project">Tears of Moon / Sweat of Sun</li>
+            <li class="project">Viru Valley </li>
             <li class="project">Mt. Parnassus Clock</li>
         </ul>
         <div class="likes">
