@@ -12,14 +12,26 @@
             var tarotReaderImage = "tarot.gif";
             var houseplantDemoDesc="This is a demo I made to show how echoAR can be integrated into web applications. Answer a short quiz, find the houseplant of your dreams, and see it in your home in AR! JS, CSS, HTML, echoAR";
             var houseplantDemoImage = "";
-            var covDesc = "";
-            var covImg = "";
+            var covDesc = "Created in Processing to show the disproprtionate effect of COVID-19 on minority groups. Every time the program is run, a different “painting” is created, with the amount of brushstrokes of each color proportionate to the death rate of a particular group. This data visualization also simulates the paint “drying”.";
+            var covImg = "covid.gif";
             var devRolesDesc = "";
-            var devRolesImg = "";
+            var devRolesImg = "nab.gif";
+            var sunDesc = "Created in Processing. Based on the legend of Mama Quilla, the moon goddess in Aztec culture. Demonstrates flocking behavior with “boids” (the little arrows), every click by the user adds a boid. Also demonstrates a creation and understanding of particle systems and simulated gravity from her tears, and manipulation of computer data by using the time of day.";
+            var sunImg = "";
             function tarotChange()
             {
                 document.getElementById('description').innerHTML = tarotReaderDesc;
                 document.getElementById('preview').src = tarotReaderImage;
+            }
+            function houseplantChange()
+            {
+                document.getElementById('description').innerHTML = houseplantDemoDesc;
+                document.getElementById('preview').src = tarotReaderImage;
+            }
+            function covidChange()
+            {
+                document.getElementById('description').innerHTML = covDesc;
+                document.getElementById('preview').src = covImg;
             }
         </script>
     </head>
@@ -45,7 +57,7 @@
             <li class="project">Mt. Parnassus Clock</li>
         </ul>
         <div class="likes">
-            <img id="preview" src=""  alt="Click on a Title to Learn More"> 
+            <img id="preview" src="" alt="Click on a Title to Learn More"> 
             <p id = "description">Click on a title to learn more!</p>
         </div>
     </body>
