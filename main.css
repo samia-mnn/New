@@ -73,7 +73,7 @@ html, body {
   .resume {
     position: fixed;
     top: 180px;
-    left: 250px;
+    margin: auto;
     background:#d166a4;
     animation: float 6s ease-in-out infinite;
   }
