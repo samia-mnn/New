@@ -14,10 +14,12 @@
             var houseplantDemoImage = "";
             var covDesc = "Created in Processing to show the disproprtionate effect of COVID-19 on minority groups. Every time the program is run, a different “painting” is created, with the amount of brushstrokes of each color proportionate to the death rate of a particular group. This data visualization also simulates the paint “drying”.";
             var covImg = "covid.gif";
-            var devRolesDesc = "";
+            var devRolesDesc = "I worked on the front and backend of NabNew and echoAR, solving a bug that fixed the orientation of item cards on desktop and movile, implementing new menus, search functions, and rotation speed toggling in 3D models.";
             var devRolesImg = "nab.gif";
             var sunDesc = "Created in Processing. Based on the legend of Mama Quilla, the moon goddess in Aztec culture. Demonstrates flocking behavior with “boids” (the little arrows), every click by the user adds a boid. Also demonstrates a creation and understanding of particle systems and simulated gravity from her tears, and manipulation of computer data by using the time of day.";
             var sunImg = "sun.gif";
+            var virDesc = "";
+            var virImg = "viru.gif";
             function tarotChange()
             {
                 document.getElementById('description').innerHTML = tarotReaderDesc;
@@ -45,6 +47,11 @@
                 document.getElementById('description').innerHTML = sunDesc;
                 document.getElementById('preview').src = sunImg;
             }
+            function viruChange()
+            {
+                document.getElementById('description').innerHTML = virDesc;
+                document.getElementById('preview').src = virImg;
+            }
         </script>
     </head>
    
@@ -66,7 +73,7 @@
             <li class="project" onclick = "devChange();">Development Roles</li>
             <li class="project" onclick = "sunChange();">Tears of Moon / Sweat of Sun</li>
             <li class="project">Viru Valley </li>
-            <li class="project">Mt. Parnassus Clock</li>
+            
         </ul>
         <div class="likes">
             <img id="preview" src="" alt="Click on a Title to Learn More"> 
